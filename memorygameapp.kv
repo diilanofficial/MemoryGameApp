@@ -1,0 +1,61 @@
+<MyScreen>:
+    GridLayout:
+        id: layout
+        cols: 1
+        spacing: 10
+        padding: 10
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "assets/bg-0.png"  # For image background
+                # color: (0.5, 0.5, 0.5, 1)  # For color background
+
+<ChooseLevelScreen>:
+    GridLayout:
+        id: layout
+        cols: 1
+        spacing: 10
+        padding: 10
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "assets/bg-0.png"  # For image background
+                # color: (0.5, 0.5, 0.5, 1)  # For color background
+
+<EasyGameScreen>:
+    BoxLayout:
+        id: layout
+        cols: 1
+        spacing: 10
+        padding: 10
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "assets/bg-0.png"
+
+<NormalGameScreen>:
+    BoxLayout:
+        id: layout
+        cols: 1
+        spacing: 10
+        padding: 10
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "assets/bg-0.png"
+
+<HardGameScreen>:
+    BoxLayout:
+        id: layout
+        cols: 1
+        spacing: 10
+        padding: 10
+        canvas.before:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "assets/bg-0.png"
